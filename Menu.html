@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <title>Main Menu</title>
     <link rel="stylesheet" type="text/css" href="Menu.css">
+    <script type="text/javascript" src="Menu.js"></script>
+    <source src="EndlessMotion.mp3" type="audio/mpeg">
+    <source src="ButtonClick.mp3" type="audio/mpeg">
 </head>
 <body>
 <div class="main_menu">
     <div class="background"></div>
     <div class="buttons">
-        <input id="Scoreboard_btn" type="image" width="200" height="200" src="./images/ScoreboardButton.png">
-        <input id="play_btn" type="image" width="200" height="200" src="./images/PlayButton.png">
-        <input id="credits_btn" type="image" width="200" height="200" src="./images/CreditsButton.png">
+        <input id="play_btn" type="image" width="150" height="150" src="./images/PlayButton.png" onclick="PlayButton(), playSound()">
+        <input id="Scoreboard_btn" type="image" width="150" height="150" src="./images/ScoreboardButton.png" onclick="ScoreboardButton(), playSound()">
+        <input id="credits_btn" type="image" width="150" height="150" src="./images/CreditsButton.png" onclick="CreditsButton(), playSound()">
     </div>
 </div>
 </body>

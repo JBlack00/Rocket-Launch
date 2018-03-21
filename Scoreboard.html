@@ -3,44 +3,19 @@
 <header>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="Scoreboard.css">
-    <div class="banner">
-    <img class="banner-image"src="./images/HighscoreText.jpg" width="1920" height="200"/>
+    <script type="text/javascript" src="Menu.js"></script>
+    <script type="text/javascript" src="score.js"></script>
     </div>
 </header>
 <body>
-    <div class="background_image"></div>
-<font color="White">
     <div class="score_board">
-<table width="70%" border="0" cellspacing="0" cellpadding="0">
-    <tr><td width = "80%" align = "right" <span style="display:inline-block; width: 75.5%;"></span><h2>Nickname</h2></td>
-        <td align = "left"> <h2> <span style="display:inline-block; width: 35%;"></span>Score</h2>
-        </td></tr>
-    <tr><td width = "80%" align = "right" <b>FTW<span style="display:inline-block; width: 29.5%;"></span></b></td>
-        <td align = "left"> <b> <span style="display:inline-block; width: 40%;"></span>9000</b>
-        </td></tr>
-    <tr><td width = "80%" align = "right" <b>BTW<span style="display:inline-block; width: 29.5%;"></span></b></td>
-        <td align = "left"> <b><span style="display:inline-block; width: 38%;"></span> 7500</b>
-        </td></tr>
-    <tr><td width = "80%" align = "right" <b>WIT<span style="display:inline-block; width: 29.5%;"></span></b></td>
-        <td align = "left"> <b><span style="display:inline-block; width: 38%;"></span> 6500</b>
-        </td></tr>
-    <tr><td width = "80%" align = "right" <b>YAS<span style="display:inline-block; width: 29.5%;"></span></b></td>
-        <td align = "left"> <b><span style="display:inline-block; width: 38%;"></span> 6000</b>
-        </td></tr>
-    <tr><td width = "80%" align = "right" <b>GG<span style="display:inline-block; width: 29.5%;"></span></b></td>
-        <td align = "left"> <b><span style="display:inline-block; width: 38%;"></span> 5700</b>
-        </td></tr>
-    <tr><td width = "80%" align = "right" <b>WOO<span style="display:inline-block; width: 29.5%;"></span></b></td>
-        <td align = "left"> <b><span style="display:inline-block; width: 38%;"></span> 5600</b>
-        </td></tr>
-    <tr><td width = "80%" align = "right" <b>BFG<span style="display:inline-block; width: 29.5%;"></span></b></td>
-        <td align = "left"> <b><span style="display:inline-block; width: 38%;"></span> 5000</b>
-        </td></tr>
-    <tr><td width = "80%" align = "right"<b>_ _ _<span style="display:inline-block; width: 29.5%;"></span></b></td>
-        <td align = "left"> <b>Please enter your new score player!</b>
-        </td></tr>
-</table><br/><hr/>
+        <div class="background"></div>
+        <div class="score">
+           <center><p id="highscore"style="  font-size: 200px;" >9999</p></center>
+        </div>
+        <div class="buttons">
+            <input id="exit_btn" type="image" width="150" height="150" src="./images/ExitButton.png" onclick="ExitButton()">
+        </div>
     </div>
-</font>
 </body>
 </html>
